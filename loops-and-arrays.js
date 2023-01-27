@@ -51,7 +51,7 @@ for (  let i = 0; i < numbers.length; i++ ){
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-for ( i = 0; i < numbers.length; i++ ){
+for ( let  i = 0; i < numbers.length; i++ ){
     console.log("Het volume van",+ squares[i] +" is "+ squares[i] ** 3);
 }
 
