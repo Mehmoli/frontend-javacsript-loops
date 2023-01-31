@@ -5,6 +5,12 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
+
+for ( let i = 0; i < names.length; i++) {
+    names[i] = (names[i] + "je");
+}
+    console.log (names);
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -22,6 +28,13 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+for (i = 0; i < numbers.length; i++){
+    if(numbers[i] % 2 === 0) {
+        console.log(numbers[i] * 2);
+    } else {
+        console.log(numbers[i] * 3);
+    }
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -41,7 +54,12 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
-
+console.log(squares);
+for (i = 0; i < squares.length; i++){
+    squares[i] = squares[i] ** 3;
+    console.log("Het volume van",+ squares[i] +" is "+ squares[i] ** 3);
+}
+console.log(squares);
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(squares) geeft: [30, 2, 8, 24, 11];
